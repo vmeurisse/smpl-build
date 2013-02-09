@@ -1,0 +1,31 @@
+{
+	"name": "smpl-build",
+	"version": "0.0.1",
+	"author": "Vincent Meurisse <dev@meurisse.org>",
+	"description": "Collection of build scripts for node/browser projects",
+	"keywords": ["build", "simple", "browser", "requirejs", "require", "AMD"],
+	"homepage": "https://github.com/vmeurisse/smpl-build",
+	"bugs": {
+		"url": "https://github.com/vmeurisse/smpl-build/issues"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"jake": "0.5.x",
+		"smpl-build-test": "~0.0.2"
+	},
+	"scripts": {
+		"test": "jake test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vmeurisse/smpl-build.git"
+	},
+	"files": [
+		"Jakefile.js",
+		"package.json",
+		"README.md",
+		"smpl-build.js"
+	],
+	"main": "smpl-build.js"
+}
